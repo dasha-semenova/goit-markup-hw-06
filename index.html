@@ -45,6 +45,13 @@
             </li>
           </ul>
         </address>
+
+        <!--Mobile menu - burger-button -->
+        <button type="button" class="burger-btn" data-burger-open>
+          <svg class="burger-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-burger-icon"></use>
+          </svg>
+        </button>
       </div>
     </header>
 
@@ -66,7 +73,11 @@
           <ul class="features-list">
             <li class="features-list-item">
               <div class="features-list-item-icon">
-                <svg width="64" height="64">
+                <svg
+                  width="64"
+                  height="64"
+                  class="featured-list-item-svg-visibility"
+                >
                   <use href="./images/icons.svg#icon-benefits-strategy"></use>
                 </svg>
               </div>
@@ -78,7 +89,11 @@
             </li>
             <li class="features-list-item">
               <div class="features-list-item-icon">
-                <svg width="64" height="64">
+                <svg
+                  width="64"
+                  height="64"
+                  class="featured-list-item-svg-visibility"
+                >
                   <use
                     href="./images/icons.svg#icon-benefits-punctuality"
                   ></use>
@@ -92,7 +107,11 @@
             </li>
             <li class="features-list-item">
               <div class="features-list-item-icon">
-                <svg width="64" height="64">
+                <svg
+                  width="64"
+                  height="64"
+                  class="featured-list-item-svg-visibility"
+                >
                   <use href="./images/icons.svg#icon-benefits-diligence"></use>
                 </svg>
               </div>
@@ -104,7 +123,11 @@
             </li>
             <li class="features-list-item">
               <div class="features-list-item-icon">
-                <svg width="64" height="64">
+                <svg
+                  width="64"
+                  height="64"
+                  class="featured-list-item-svg-visibility"
+                >
                   <use
                     href="./images/icons.svg#icon-benefits-technologies"
                   ></use>
@@ -583,6 +606,7 @@
             digital marketing & growth solutions.
           </p>
         </div>
+
         <div class="footer-social">
           <p class="footer-social-subtitle">Social media</p>
           <ul class="footer-social-icons">
@@ -752,14 +776,16 @@
                   <use href="./images/icons.svg#icon-checkbox"></use>
                 </svg>
               </span>
-              I accept the terms and conditions of the
-              <a
-                href="https://www.sitime.com/privacy-policy"
-                target="_blank"
-                class="modal-link"
-              >
-                Privacy Policy
-              </a>
+              <span class="user-privacy-text">
+                I accept the terms and conditions of the
+                <a
+                  href="https://www.sitime.com/privacy-policy"
+                  target="_blank"
+                  class="modal-link"
+                >
+                  Privacy Policy
+                </a>
+              </span>
             </label>
           </div>
 
@@ -767,6 +793,87 @@
         </form>
       </div>
     </div>
+
+    <!--Mobile menu - burger-menu -->
+    <div class="mobile-menu" data-burger-modal>
+      <div class="container mobile-menu-container">
+        <div class="mobile-menu-close">
+          <button type="button" class="mobile-menu-close-btn" data-burger-close>
+            <svg width="8" height="8" class="mobile-menu-btn-icon">
+              <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+          </button>
+        </div>
+
+        <nav class="mobile-menu-nav">
+          <ul class="mobile-menu-nav-list">
+            <li><a href="./index.html" class="link-active">Studio</a></li>
+            <li><a href="" class="link">Portfolio</a></li>
+            <li><a href="" class="link">Contacts</a></li>
+          </ul>
+        </nav>
+
+        <address class="mobile-menu-contacts">
+          <ul class="mobile-menu-contacts-list">
+            <li>
+              <a href="tel:+110001111111" class="link"> +11 (000) 111-11-11 </a>
+            </li>
+            <li>
+              <a href="mailto:info@devstudio.com" class="link">
+                info@devstudio.com
+              </a>
+            </li>
+          </ul>
+        </address>
+        <ul class="mobile-social-icons">
+          <li class="mobile-social-icons-item">
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              class="mobile-social-icons-link"
+            >
+              <svg width="24" height="24" class="mobile-social-icons-link-svg">
+                <use href="./images/icons.svg#icon-social-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mobile-social-icons-item">
+            <a
+              href="https://x.com/"
+              target="_blank"
+              class="mobile-social-icons-link"
+            >
+              <svg width="24" height="24" class="mobile-social-icons-link-svg">
+                <use href="./images/icons.svg#icon-social-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mobile-social-icons-item">
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              class="mobile-social-icons-link"
+            >
+              <svg width="24" height="24" class="mobile-social-icons-link-svg">
+                <use href="./images/icons.svg#icon-social-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mobile-social-icons-item">
+            <a
+              href="https://www.linkedin.com/"
+              target="_blank"
+              class="mobile-social-icons-link"
+            >
+              <svg width="24" height="24" class="mobile-social-icons-link-svg">
+                <use href="./images/icons.svg#icon-social-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
     <script src="./js/modal.js"></script>
   </body>
 </html>
