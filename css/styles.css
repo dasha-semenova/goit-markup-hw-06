@@ -653,6 +653,7 @@ footer - start */
 }
 
 .footer-content {
+    
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -818,7 +819,7 @@ footer - start */
     .footer-content {
         flex-wrap: nowrap;
         gap: 0;
-        max-width: 1128px;
+        max-width: 1158px;
     }
     .footer-social {
         margin-right: 80px;
